@@ -1,0 +1,5 @@
+services:
+  news-aggregator:
+    build: .
+    ports:
+      - '4000:80'
